@@ -1,0 +1,146 @@
+  * {
+      box-sizing: border-box;
+  }
+
+  body {
+      font-family: verdana;
+      padding: 10px;
+      background-color: #d0a331;
+  }
+
+  .header {
+      padding: 30px;
+      text-align: center;
+      background: white;
+  }
+
+  .header h1 {
+      font-size: 50px;
+      color: #003f7f;
+  }
+
+  .navbar {
+      overflow: hidden;
+      background-color: #e8505f;
+  }
+
+  .navbar a {
+      float: left;
+      display: block;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+  }
+
+
+  .navbar a:hover {
+      background-color: #285cab;
+      color: black;
+
+  }
+
+  .row:after imag {
+
+      content: "";
+      display: table;
+      clear: both;
+  }
+
+  .mainphoto {
+
+      padding: 30px 1px 30px;
+      margin: 10px 1px 30px;
+      width: 100%;
+
+  }
+
+  .container {
+      position: relative;
+      color: white;
+  }
+
+  .advantages-list {
+      position: absolute;
+      top: 70%;
+      margin-left: 35%;
+      transform: translate(-50%, -50%);
+      font-size: 15px;
+
+
+  }
+
+  .advantages-list ul {
+      list-style: none;
+  }
+
+  .advantages-list ul li::before {
+      content: "\2022";
+      color: yellow;
+      font-weight: bold;
+      font-size: 30px;
+      display: inline-block;
+      width: 0.8em;
+      height: 0.01em;
+
+  }
+
+  .content {
+
+      padding: 50px 30px 30px 30px;
+      border-style: none;
+      border-radius: 5px;
+      background-color: #fff;
+      font-size: 20px;
+      color: #7f8694;
+  }
+
+  .footer {
+      padding: 10px 0px 120px 0px;
+      background-color: currentColor;
+      margin-top: 60px;
+      border-radius: 5px;
+
+  }
+
+  .footerleft1 {
+      float: left;
+      margin: 30px 12px 0px 10px;
+      width: 90px;
+      height: 80px;
+
+
+
+  }
+
+  .footer img {
+      width: 120px;
+      height: 100px;
+      margin-top: 10px;
+  }
+
+  .footerleft {
+      float: left;
+      color: aliceblue;
+      padding: 15px 15px 10px 10px;
+  }
+
+
+  .footerright {
+      float: right;
+      color: aliceblue;
+      padding: 15px 15px 10px 10px;
+  }
+
+  .heading {
+      font-size: 20px;
+      font-family: monospace;
+  }
+
+
+  table img {
+      width: 80px;
+      height: 70px;
+      margin-left: 30px;
+
+  }

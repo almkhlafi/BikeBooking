@@ -1,0 +1,54 @@
+        body {
+            font-family: verdana;
+            background-color: #d0a331;
+        }
+
+        .about {
+            position: absolute;
+            top: 38%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 50px;
+            color: white;
+            background: rgba(20, 0, 0, 0.5);
+        }
+
+        img {
+
+            height: 180px;
+            width: 100%;
+
+
+        }
+
+        .container {
+            position: relative;
+            background-color: aliceblue;
+
+            padding-top: 2%;
+            padding-right: 2%;
+            padding-left: 2%;
+            border: solid none;
+            border-radius: 4px;
+        }
+
+        .navbar {
+            overflow: hidden;
+            background-color: #e8505f;
+        }
+
+        .navbar a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+
+        .navbar a:hover {
+            background-color: forestgreen;
+            color: black;
+
+        }

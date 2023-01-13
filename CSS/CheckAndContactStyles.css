@@ -1,0 +1,171 @@
+body {
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    min-height: 100vh;
+    font-family: sans-serif;
+    font-size: 18px;
+    color: rgb(145, 13, 31);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    grid-template-rows: 60px 1fr auto;
+}
+
+button {
+    height: 50px;
+    padding: 0 50px;
+    font-size: 18px;
+    color: white;
+    background-color: #850d17;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+header {
+    padding: 0 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-list {
+    list-style: none;
+    column-gap: 2em;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #223;
+}
+
+.nav-link:hover,
+.nav-link.active {
+    color: #e4052a;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+
+
+h1 {
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+}
+
+
+
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 50px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+#contact-form input {
+    height: 50px;
+}
+
+#contact-form * {
+    margin-bottom: 1em;
+}
+
+input {
+    font-size: 18px;
+    padding: 0 0.5em;
+    border: 1px solid #a716168a;
+}
+
+input[type="number"] {
+    height: 40px;
+}
+
+textarea {
+    resize: none;
+    font-size: 18px;
+    padding: 0.5em;
+}
+
+table,
+td,
+th {
+    border: 1px solid #ddd;
+}
+
+#checkout-table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 100em;
+    margin: auto;
+    border: 1px solid #ddd;
+    margin-bottom: 7em;
+}
+
+#checkout-table thead,
+#checkout-table td {
+    padding: 1em;
+}
+
+.wide {
+
+    width: 100px;
+}
+
+#checkout-table thead td {
+    font-weight: 500;
+}
+
+#checkout-table td {
+    width: 25%;
+}
+
+#checkout-table select,
+#checkout-table input[type='text'] {
+    width: 100%;
+    padding: 0.7em;
+}
+
+#checkout-table tfoot td:first-child {
+    font-weight: 500;
+}
+
+.container {
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    max-width: 1200px;
+}
+
+.mb-1 {
+    margin-bottom: 10px;
+}
+
+.fixed-bg {
+    background: url('../Images/bicycle1.jpg');
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    background-color: #11111a;
+    background-blend-mode: soft-light;
+}

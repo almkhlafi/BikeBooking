@@ -1,0 +1,149 @@
+  * {
+      box-sizing: border-box;
+  }
+
+  body {
+      font-family: Arial;
+      padding: 10px;
+      background-color: #d0a331;
+
+  }
+
+  .header {
+
+      text-align: center;
+      background: white;
+  }
+
+  h1 {
+      color: dodgerblue;
+      font-size: 50px;
+      font-family: serif;
+      background-color: aliceblue;
+      margin-left: 20%;
+      margin-right: 20%;
+      border: solid none;
+      border-radius: 50px;
+  }
+
+
+  .navbar {
+      overflow: hidden;
+      background-color: #e8505f;
+  }
+
+  .navbar a {
+      float: left;
+      display: block;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+  }
+
+
+  .navbar a:hover {
+      background-color: #285cab;
+      color: black;
+
+  }
+
+  .button {
+      background-color: dodgerblue;
+      margin-left: 10%;
+      cursor: pointer;
+      width: 200px;
+      height: 30px;
+      border: none;
+      font-size: 13px;
+      margin-left: auto;
+      margin-right: auto;
+
+  }
+
+  .button:hover {
+      background-color: brown;
+      color: white;
+      font-size: 15px;
+
+  }
+
+
+
+  .bike-card-advantages-list {
+
+      list-style: none;
+  }
+
+
+  .itemsR {
+      float: right;
+      margin-left: 30px;
+      margin-right: 100px;
+      padding-bottom: 300px;
+      height: 200px;
+      width: 250px;
+  }
+
+
+  .itemsL {
+      float: left;
+      margin: 30px 30px 30px 30px;
+      border: solid;
+      border-radius: 3px;
+      background-color: #d8e4f3;
+      padding: 30px 30px 30px 30px;
+      color: #a8b8cc;
+      text-align: center;
+
+
+  }
+
+  .itemsR img {
+      height: 200px;
+      width: 250px;
+  }
+
+  .itemsL img {
+      height: 200px;
+      width: 250px;
+  }
+
+  hr {
+      width: 80%;
+  }
+
+  .titleColor {
+
+      font-size: 22px;
+      font-weight: 400;
+      color: #5a647c;
+      font: bold;
+  }
+
+
+  footer {
+      padding: 10px 0px 120px 0px;
+      background-color: currentColor;
+      margin-top: 60px;
+      border-radius: 5px;
+
+  }
+
+  .footerleft1 {
+      float: left;
+      margin: 30px 12px 0px 10px;
+  }
+
+  .footerleft {
+      float: left;
+      color: aliceblue;
+      padding: 15px 15px 10px 10px;
+  }
+
+
+  .footerright {
+      float: right;
+      color: aliceblue;
+      padding: 15px 15px 10px 10px;
+  }

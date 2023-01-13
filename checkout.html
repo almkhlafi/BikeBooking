@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/CheckAndContactStyles.css">
+    <title>Checkout</title>
+</head>
+
+<body>
+    <header>
+        <div></div>
+        <nav>
+            <ul class="nav-list">
+                <li class="nav-item"><a href="index.html" class="nav-link active">Home</a>
+                <li class="nav-item"><a href="Items.html" class="nav-link active">Bikes</a></li>
+
+                <li class="nav-item"><a href="contact.html" class="nav-link active">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <h2>
+                <center>Check Out</center>
+            </h2>
+            <table id="checkout-table">
+                <thead>
+                    <tr>
+                        <td>Item</td>
+                        <td>Size &#38 Price</td>
+                        <td>Number of Items</td>
+                        <td>Cost ($)</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <input type="checkbox" onchange="changeSelected(this)" name="bike1">
+                            <label for="Mountain bike">Harley-Davidson</label>
+                            <img src="Images/moto1.jpg" width="250px" height="250px;">
+                        </td>
+                        <td>
+                            <div class="mb-1">
+                                <input type="radio" name="sizeBike1" value="small-100" checked onclick="changeSize(this)">
+                                <label for="small">Small - ($100) </label>
+                                <span style="padding-right: 150px"></span>
+                            </div>
+                            <div class="mb-1">
+                                <input type="radio" name="sizeBike1" value="medium-170" onclick="changeSize(this)">
+                                <label for="medium">Medium - ($170)</label>
+                            </div>
+                            <div class="mb-1">
+                                <input type="radio" name="sizeBike1" value="large-250" onclick="changeSize(this)">
+                                <label for="large">Large - ($250)</label>
+                            </div>
+                        </td>
+                        <td>
+                            <select name="numBike1" onchange="changeNumItems(this)">
+                                <option value="1" selected>1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                            </select>
+                        </td>
+                        <td>
+                            <input type="number" readonly>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="checkbox" onchange="changeSelected(this)" name="bike2">
+                            <label for="Road bike">Harley-Davidson Sportster</label> <img src="Images/moto3.png" width="250px" height="250px;">
+                        </td>
+                        <td>
+                            <div class="mb-1">
+                                <input type="radio" name="sizeBike2" value="small-75" checked onclick="changeSize(this)">
+                                <label for="small">Small - ($75)</label>
+                            </div>
+                            <div class="mb-1">
+                                <input type="radio" name="sizeBike2" value="medium-125" onclick="changeSize(this)">
+                                <label for="medium">Medium - ($125)</label>
+                            </div>
+                            <div class="mb-1">
+                                <input type="radio" name="sizeBike2" value="large-215" onclick="changeSize(this)">
+                                <label for="large">Large - ($215)</label>
+                            </div>
+                        </td>
+                        <td>
+                            <select name="numBike2" onchange="changeNumItems(this)">
+                                <option value="1" selected>1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                            </select>
+                        </td>
+                        <td>
+                            <input type="number" readonly>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="checkbox" onchange="changeSelected(this)" name="bike3">
+                            <label for="BMX">Dyna Switchback</label>
+                            <img src="Images/moto2.jpg" width="220px" height="190px;">
+                        </td>
+                        <td>
+                            <div class="mb-1">
+                                <input type="radio" name="sizeBike3" value="small-150" checked onclick="changeSize(this)">
+                                <label for="small">Small - ($150)</label>
+                            </div>
+                            <div class="mb-1">
+                                <input type="radio" name="sizeBike3" value="medium-200" onclick="changeSize(this)">
+                                <label for="medium">Medium - ($200)</label>
+                            </div>
+                            <div class="mb-1">
+                                <input type="radio" name="sizeBike3" value="large-245" onclick="changeSize(this)">
+                                <label for="large">Large - ($245)</label>
+                            </div>
+                        </td>
+                        <td>
+                            <select name="numBike3" onchange="changeNumItems(this)">
+                                <option value="1" selected>1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                            </select>
+                        </td>
+                        <td>
+                            <input type="number" readonly>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="checkbox" onchange="changeSelected(this)" name="bike4">
+                            <label for="Cruiser">Sportster 1200 Custom</label>
+                            <img src="Images/moto4.jpg" width="235px" height="190px;">
+                        </td>
+                        <td>
+                            <div class="mb-1">
+                                <input type="radio" name="sizeBike4" value="small-200" checked onclick="changeSize(this)">
+                                <label for="small">Small - ($200)</label>
+                            </div>
+                            <div class="mb-1">
+                                <input type="radio" name="sizeBike4" value="medium-255" onclick="changeSize(this)">
+                                <label for="medium">Medium - ($255)</label>
+                            </div>
+                            <div class="mb-1">
+                                <input type="radio" name="sizeBike4" value="large-300" onclick="changeSize(this)">
+                                <label for="large">Large - ($300)</label>
+                            </div>
+                        </td>
+                        <td>
+                            <select name="numBike4" onchange="changeNumItems(this)">
+                                <option value="1" selected>1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                            </select>
+                        </td>
+                        <td>
+                            <input type="number" readonly>
+                        </td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="2">Total Cost (After 15% Discount)</td>
+                        <td>
+                            <button onclick="calculateTotal()">Calculate</button>
+                        </td>
+                        <td>
+                            <span>($)</span><span id="checkout-total">0</span>
+                        </td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <center>
+                <small>Coypyright &copy;2022 All rights reserved</small>
+            </center>
+            <br>
+        </div>
+    </footer>
+
+    <script src="js/checkout.js"></script>
+</body>
+
+</html>
